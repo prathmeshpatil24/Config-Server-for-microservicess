@@ -1,4 +1,5 @@
-
+custom:
+  message: Setting from config server git repository🚀
 eureka:
   client:
     register-with-eureka: true
