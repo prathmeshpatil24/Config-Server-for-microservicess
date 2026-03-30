@@ -9,3 +9,13 @@ eureka:
   instance:
 #    hostname: localhost // can cause issues in some environments, so it's often better to use prefer-ip-address
     prefer-ip-address: true
+
+
+# spring actuator
+management:
+    endpoints:
+      web:
+        exposure:
+          include: refresh,health,info
+
+    
