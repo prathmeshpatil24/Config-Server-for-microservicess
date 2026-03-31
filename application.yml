@@ -1,3 +1,7 @@
+spring:
+  output:
+     ansi:
+      enabled: ALWAYS
 custom:
   message: Setting from config server git repository🚀
 eureka:
